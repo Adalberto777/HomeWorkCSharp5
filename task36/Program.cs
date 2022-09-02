@@ -37,9 +37,8 @@ int SumOdd(int[] array) // метод поиска суммы элементов
 }
 
 
-int[] array = GetArray(4, 100, 1000); //вызываем функцию GetArray с параметрами: размер, мин элемент, макс элемент
+int[] array = GetArray(4, -100, 100); //вызываем функцию GetArray с параметрами: размер, мин элемент, макс элемент
 PrintArray(array);
 
 Console.WriteLine();
-Console.WriteLine($" сумма элементов массива с не четными индексами: {SumOdd(array)}");
-
+Console.WriteLine($"сумма элементов массива с не четными индексами: {SumOdd(array)}");
