@@ -52,7 +52,7 @@ int MaxIndex(int[] array) // метод поиска индекса максим
 }
 
 
-int[] array = GetArray(10, 1, 1000); //вызываем функцию GetArray с параметрами: размер, мин элемент, макс элемент
+int[] array = GetArray(10, 1, 999); //вызываем функцию GetArray с параметрами: размер, мин элемент, макс элемент
 PrintArray(array);
 
 Console.WriteLine();
