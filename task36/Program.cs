@@ -25,7 +25,7 @@ int SumOdd(int[] array) // метод поиска суммы элементов
 {
     int sum = 0;
 
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i++)   // можно i поставить равным 1 с шагом 2 и без if посчитатать все не четные
     {
         if(i % 2 !=0)
         {
